@@ -1,0 +1,26 @@
+package com.soap.service;
+
+import javax.jws.WebService;
+import javax.jws.soap.SOAPBinding;
+import javax.jws.soap.SOAPBinding.Style;
+
+@WebService
+@SOAPBinding(style = Style.DOCUMENT)// Style.RPC Style.DOCUMENT
+public class ShopInfo 
+{
+	
+	public String getShopInfo(String input) 
+	{
+		String response = "Invalid Input";
+		if(response.equalsIgnoreCase("shopName")) 
+		{
+			response = "AutoMobileWS";
+		}
+		else if(response.equalsIgnoreCase("since")) 
+		{
+			response = "since 2021";
+		}
+		return response;
+	}
+	
+}

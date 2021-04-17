@@ -1,0 +1,11 @@
+package com.soap.model;
+
+public class Service 
+{
+	
+	private String serviceName;
+	private String serviceType;
+	private double price;
+	
+	
+}

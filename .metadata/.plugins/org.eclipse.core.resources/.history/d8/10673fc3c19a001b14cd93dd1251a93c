@@ -1,0 +1,43 @@
+package com.soap.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ServiceImpl implements Service
+{
+
+	List<String> carWashList = new ArrayList<String>();
+	List<String> bikeWashList = new ArrayList<String>();
+	List<String> carDetailingList = new ArrayList<String>();
+	List<String> bikeDetailingList = new ArrayList<String>();
+	
+	@Override
+	public List<String> getServices() 
+	{
+		List<String> serviceList = new ArrayList<String>();
+		serviceList.add("Car Wash");
+		serviceList.add("Bike Wash");
+		serviceList.add("Car Detailing");
+		serviceList.add("Bike Detailing");
+		return serviceList;
+	}
+
+	@Override
+	public String getServiceByCat(String serviceCat) 
+	{
+		switch(serviceCat.toLowerCase())
+		{
+		case "Car Wash".toLowerCase():
+			return carWashList;
+		}
+		return null;
+	}
+
+	@Override
+	public boolean addService(String serviceCat, String serviceName)
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

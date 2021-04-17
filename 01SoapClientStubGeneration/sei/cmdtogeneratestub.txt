@@ -1,0 +1,7 @@
+1. make directory
+mkdir sei
+2. to check webservices
+wsimport
+3.generate stub and for source file create folder inside sei
+wsimport -keep -s src http://wsgeoip.lavasoft.com/ipservice.asmx?WSDL
+4.check sei folder file will be created there.

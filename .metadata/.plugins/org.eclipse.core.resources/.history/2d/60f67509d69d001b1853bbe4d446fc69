@@ -1,0 +1,19 @@
+package com.soap.service;
+
+import java.util.List;
+
+import javax.jws.WebMethod;
+
+import com.soap.model.Services;
+
+public interface ServiceCatlogInterface {
+
+	List<String> getServices();
+
+	List<String> getServiceByCat(String serviceCat);
+
+	List<Services> getServiceByCatv2(String serviceCat);
+
+	boolean addService(String serviceCat, String serviceName);
+
+}

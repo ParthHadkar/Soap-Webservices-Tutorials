@@ -1,0 +1,6 @@
+package com.soap.service;
+
+public interface Service 
+{
+
+}

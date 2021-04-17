@@ -1,0 +1,44 @@
+package com.soap.service;
+
+import java.util.List;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+import com.soap.model.Services;
+
+@WebService(name = "SoapApp",portName = "SoapAppPort",serviceName = "SoapAppService",targetNamespace = "http://www.soapapp.com")
+public class ServiceCatlog implements ServiceCatlogInterface 
+{
+
+	private Service service = new ServiceImpl();
+	
+	@Override
+	@WebMethod(action = "fetch_services",operationName = "fetchServices")
+	public List<String> getServices()
+	{
+		return service.getServices();
+	}
+		
+	@Override
+	@WebMethod
+	public List<String> getServiceByCat(String serviceCat)
+	{
+		return service.getServiceByCat(serviceCat);
+	}
+	
+	@Override
+	@WebMethod
+	public List<Services> getServiceByCatv2(String serviceCat)
+	{
+		return service.getServiceByCatv2(serviceCat);
+	}
+	
+	@Override
+	@WebMethod
+	public boolean addService(String serviceCat,String serviceName)
+	{
+		return service.addService(serviceCat,serviceName);
+	}
+	
+}

@@ -1,0 +1,21 @@
+INDEX VERSION 1.131
+E:\OfficeTutorials\Soap Webservices Tutorials\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3499038251.index
+\04AddingInputArg\src\main\java
+E:\OfficeTutorials\Soap Webservices Tutorials\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3513222757.index
+\07ServiceInterfaceAndCustomTypes\src\main\java
+E:\OfficeTutorials\Soap Webservices Tutorials\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\896582263.index
+\10UsingEndpoint\src\main\java
+E:\OfficeTutorials\Soap Webservices Tutorials\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2330566549.index
+\03CreatingSoapService11\src\main\java
+E:\OfficeTutorials\Soap Webservices Tutorials\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1903741635.index
+\08UsingJAXBAnnotations\src\main\java
+E:\OfficeTutorials\Soap Webservices Tutorials\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4170519930.index
+\04AddingInputArgument\src\main\java
+E:\OfficeTutorials\Soap Webservices Tutorials\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3135652152.index
+\03CreatingSoapService\src\main\java
+E:\OfficeTutorials\Soap Webservices Tutorials\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1845392121.index
+\06SchemaTypesAndBindingStyles\src\main\java
+E:\OfficeTutorials\Soap Webservices Tutorials\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2067455913.index
+\05CustomizingTheWsdl\src\main\java
+E:\OfficeTutorials\Soap Webservices Tutorials\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1942713880.index
+\09HandlingFaults\src\main\java

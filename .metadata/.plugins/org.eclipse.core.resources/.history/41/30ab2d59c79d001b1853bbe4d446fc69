@@ -1,0 +1,12 @@
+package com.soap.service;
+
+public class ShopInfo 
+{
+	
+	public String getShopInfo(String input) 
+	{
+		String response = "Invalid Input";
+		
+		return response;
+	}
+}

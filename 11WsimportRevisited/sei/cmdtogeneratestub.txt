@@ -1,0 +1,14 @@
+1. make directory
+mkdir sei
+2. to check webservices
+wsimport
+3.generate stub and for source file create folder inside sei
+wsimport -keep -s src http://localhost:1234/SoapAppService?WSDL
+4.check sei folder file will be created there.
+-d <directory>
+-keep
+-s <directory>
+-verbose
+-quit
+-p <package_name>
+-b filname.xml

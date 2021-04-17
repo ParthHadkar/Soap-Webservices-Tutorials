@@ -1,0 +1,10 @@
+package com.soap.publisher;
+
+public class TestPublisher {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

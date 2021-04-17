@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+E:\OfficeTutorials\Soap Webservices Tutorials\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2660793157.index
+3366966956.index
+109960760.index
+4234756187.index
+2685020919.index
+969781896.index
+2408414329.index
+1420518797.index

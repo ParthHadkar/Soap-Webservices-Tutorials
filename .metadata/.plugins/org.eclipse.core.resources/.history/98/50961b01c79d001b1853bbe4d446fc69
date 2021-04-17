@@ -1,0 +1,10 @@
+package com.soap.service;
+
+public class ShopInfo 
+{
+	
+	public String getShopInfo() 
+	{
+		
+	}
+}

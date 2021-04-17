@@ -1,0 +1,58 @@
+package com.soap.model;
+
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlRootElement(name = "AutoServices")
+@XmlType(propOrder = {"serviceType","serviceName","price"})
+public class Services 
+{
+	@XmlElement(name = "AutoServiceName")
+	private String serviceName;
+	@XmlElement(name = "AutoServiceType")
+	private String serviceType;
+	@XmlElement(name = "AutoServicePrice")
+	private double price;
+	
+	public Services() {}
+	
+	public Services(String serviceName, String serviceType, double price) 
+	{
+		this.serviceName = serviceName;
+		this.serviceType = serviceType;
+		this.price = price;
+	}
+
+	public String getServiceName() 
+	{
+		return serviceName;
+	}
+
+	public void setServiceName(String serviceName) 
+	{
+		this.serviceName = serviceName;
+	}
+
+	public String getServiceType() 
+	{
+		return serviceType;
+	}
+
+	public void setServiceType(String serviceType) 
+	{
+		this.serviceType = serviceType;
+	}
+
+	public double getPrice() 
+	{
+		return price;
+	}
+
+	public void setPrice(double price) 
+	{
+		this.price = price;
+	}
+	
+	
+}

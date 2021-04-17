@@ -1,0 +1,26 @@
+package com.soap.service;
+
+import java.util.List;
+
+public class ServiceImpl implements Service
+{
+
+	@Override
+	public List<String> getServices() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getServiceByCat(String serviceCat) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean addService(String serviceCat, String serviceName) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="J2EE_EXPORT_OVERWRITE" value="false"/>
+	<item key="J2EE_EXPORT_SOURCE" value="false"/>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="GlassFish 4"/>
+		<item value="GlassFish 5"/>
+		<item value="JBoss 5.1 Runtime"/>
+		<item value="Apache Tomcat v9.0"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="E:\OfficeTutorials\Soap Webservices Tutorials\08UsingJAXBAnnotations\lib\08UsingJAXBAnnotations.war"/>
+		<item value="E:\OfficeTutorials\Soap Webservices Tutorials\07ServiceInterfaceAndCustomTypes\lib\07ServiceInterfaceAndCustomTypes.war"/>
+		<item value="E:\OfficeTutorials\Soap Webservices Tutorials\05CustomizingTheWsdl\lib\07ServiceInterfaceAndCustomTypes.war"/>
+		<item value="E:\OfficeTutorials\Soap Webservices Tutorials\05CustomizingTheWsdl\lib\06SchemaTypesAndBindingStylesdefault.war"/>
+		<item value="E:\OfficeTutorials\Soap Webservices Tutorials\05CustomizingTheWsdl\lib\06SchemaTypesAndBindingStyles.war"/>
+	</list>
+</section>

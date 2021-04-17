@@ -1,0 +1,6 @@
+package com.soap.exception;
+
+public class InvalidInputException extends Exception
+{
+
+}
